@@ -1,0 +1,45 @@
+body {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* button {
+    margin: 30px auto;
+} */
+
+h2 {
+    text-align: center;
+}
